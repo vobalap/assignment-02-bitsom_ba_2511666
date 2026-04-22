@@ -1,0 +1,196 @@
+2.1 — Document Design: 
+Document Electronics: 
+
+  {
+    "_id": "ELEC001",
+    "category": "Electronics",
+    "productName": "UltraView 4K Smart TV",
+    "brand": "TechVision",
+    "price": {
+      "amount": 799.99,
+      "currency": "USD",
+      "discountPercentage": 15
+    },
+    "specifications": {
+      "screenSize": "55 inches",
+      "resolution": "3840x2160",
+      "displayType": "OLED",
+      "refreshRate": "120Hz",
+      "smartFeatures": ["WiFi", "Bluetooth", "Voice Control"],
+      "ports": {
+        "hdmi": 4,
+        "usb": 3,
+        "ethernet": 1
+      },
+      "powerConsumption": "150W",
+      "voltage": "110-240V",
+      "energyRating": "A+"
+    },
+    "warranty": {
+      "duration": 24,
+      "unit": "months",
+      "type": "Manufacturer",
+      "extendedAvailable": true
+    },
+    "inventory": {
+      "stockQuantity": 45,
+      "warehouseLocation": "WH-North-01",
+      "reorderLevel": 10
+    },
+    "ratings": {
+      "average": 4.6,
+      "totalReviews": 328
+    },
+    "dateAdded": "2025-11-15T10:30:00Z",
+    "tags": ["smart-tv", "4k", "oled", "home-entertainment"]
+  },
+Document Clothing: 
+
+  {
+    "_id": "CLTH001",
+    "category": "Clothing",
+    "productName": "Premium Cotton Casual Shirt",
+    "brand": "UrbanStyle",
+    "price": {
+      "amount": 49.99,
+      "currency": "USD",
+      "discountPercentage": 20
+    },
+    "clothingDetails": {
+      "gender": "Men",
+      "type": "Shirt",
+      "material": "100% Cotton",
+      "pattern": "Solid",
+      "fit": "Slim Fit",
+      "sleeves": "Long Sleeve",
+      "collar": "Button-Down"
+    },
+    "availableSizes": [
+      {
+        "size": "S",
+        "stockQuantity": 15,
+        "measurements": {
+          "chest": "36 inches",
+          "length": "28 inches",
+          "shoulder": "16 inches"
+        }
+      },
+      {
+        "size": "M",
+        "stockQuantity": 32,
+        "measurements": {
+          "chest": "38 inches",
+          "length": "29 inches",
+          "shoulder": "17 inches"
+        }
+      },
+      {
+        "size": "L",
+        "stockQuantity": 28,
+        "measurements": {
+          "chest": "40 inches",
+          "length": "30 inches",
+          "shoulder": "18 inches"
+        }
+      },
+      {
+        "size": "XL",
+        "stockQuantity": 20,
+        "measurements": {
+          "chest": "42 inches",
+          "length": "31 inches",
+          "shoulder": "19 inches"
+        }
+      }
+    ],
+    "colors": [
+      {
+        "name": "Navy Blue",
+        "hexCode": "#000080",
+        "available": true
+      },
+      {
+        "name": "White",
+        "hexCode": "#FFFFFF",
+        "available": true
+      },
+      {
+        "name": "Light Gray",
+        "hexCode": "#D3D3D3",
+        "available": false
+      }
+    ],
+    "careInstructions": [
+      "Machine wash cold",
+      "Do not bleach",
+      "Tumble dry low",
+      "Iron on medium heat"
+    ],
+    "ratings": {
+      "average": 4.3,
+      "totalReviews": 156
+    },
+    "dateAdded": "2026-01-20T14:15:00Z",
+    "tags": ["casual", "cotton", "formal-casual", "office-wear"]
+  },
+Document Groceries: 
+
+  {
+    "_id": "GROC001",
+    "category": "Groceries",
+    "productName": "Organic Whole Wheat Pasta",
+    "brand": "NatureHarvest",
+    "price": {
+      "amount": 4.99,
+      "currency": "USD",
+      "discountPercentage": 0
+    },
+    "packageDetails": {
+      "weight": "500g",
+      "packagingType": "Box",
+      "unitsPerPackage": 1
+    },
+    "nutritionalInfo": {
+      "servingSize": "85g",
+      "servingsPerContainer": 6,
+      "perServing": {
+        "calories": 310,
+        "totalFat": "2g",
+        "saturatedFat": "0g",
+        "transFat": "0g",
+        "cholesterol": "0mg",
+        "sodium": "0mg",
+        "totalCarbohydrates": "62g",
+        "dietaryFiber": "8g",
+        "sugars": "3g",
+        "protein": "11g"
+      },
+      "vitamins": ["Iron 15%", "Thiamin 25%", "Niacin 20%"]
+    },
+    "certifications": ["USDA Organic", "Non-GMO", "Vegan"],
+    "allergens": ["Wheat", "Gluten"],
+    "ingredients": [
+      "Organic Whole Wheat Flour",
+      "Water"
+    ],
+    "storageInstructions": "Store in a cool, dry place. Once opened, transfer to an airtight container.",
+    "dates": {
+      "manufactured": "2026-02-10",
+      "bestBefore": "2027-02-10",
+      "expiryDate": "2027-03-10"
+    },
+    "inventory": {
+      "stockQuantity": 250,
+      "warehouseLocation": "WH-Central-03",
+      "reorderLevel": 50,
+      "temperatureControlled": false
+    },
+    "ratings": {
+      "average": 4.7,
+      "totalReviews": 892
+    },
+    "dateAdded": "2026-02-15T09:00:00Z",
+    "tags": ["organic", "whole-wheat", "pasta", "healthy", "vegan"]
+  }
+]
+
